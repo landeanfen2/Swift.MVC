@@ -1,0 +1,10 @@
+E:\VS2013 Projects\MyTestMVC\Swift.MVC\bin\Debug\Swift.MVC.dll
+E:\VS2013 Projects\MyTestMVC\Swift.MVC\bin\Debug\Swift.MVC.pdb
+E:\VS2013 Projects\MyTestMVC\Swift.MVC\obj\Debug\Swift.MVC.csprojResolveAssemblyReference.cache
+E:\VS2013 Projects\MyTestMVC\Swift.MVC\obj\Debug\Swift.MVC.dll
+E:\VS2013 Projects\MyTestMVC\Swift.MVC\obj\Debug\Swift.MVC.pdb
+E:\VS2013 Projects\Swift.Mvc\Swift.MVC\bin\Debug\Swift.MVC.dll
+E:\VS2013 Projects\Swift.Mvc\Swift.MVC\bin\Debug\Swift.MVC.pdb
+E:\VS2013 Projects\Swift.Mvc\Swift.MVC\obj\Debug\Swift.MVC.dll
+E:\VS2013 Projects\Swift.Mvc\Swift.MVC\obj\Debug\Swift.MVC.pdb
+E:\VS2013 Projects\Swift.Mvc\Swift.MVC\obj\Debug\Swift.MVC.csprojResolveAssemblyReference.cache
