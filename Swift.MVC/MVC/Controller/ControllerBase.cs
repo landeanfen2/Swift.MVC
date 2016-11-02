@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Swift.MVC.Routing;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,6 @@ namespace Swift.MVC
     public abstract class ControllerBase:IController
     {
 
-        public abstract void Execute(System.Web.Routing.RequestContext requestContext);
+        public abstract void Execute(SwiftRouteData routeData);
     }
 }

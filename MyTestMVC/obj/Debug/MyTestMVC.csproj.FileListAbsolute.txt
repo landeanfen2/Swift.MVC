@@ -12,3 +12,27 @@ E:\VS2013 Projects\Swift.Mvc\MyTestMVC\bin\Swift.MVC.pdb
 E:\VS2013 Projects\Swift.Mvc\MyTestMVC\obj\Debug\MyTestMVC.csprojResolveAssemblyReference.cache
 E:\VS2013 Projects\Swift.Mvc\MyTestMVC\obj\Debug\MyTestMVC.dll
 E:\VS2013 Projects\Swift.Mvc\MyTestMVC\obj\Debug\MyTestMVC.pdb
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\MyTestMVC.dll.config
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\MyTestMVC.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\MyTestMVC.pdb
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Swift.MVC.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Swift.MVC.pdb
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\obj\Debug\MyTestMVC.csprojResolveAssemblyReference.cache
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\obj\Debug\MyTestMVC.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\obj\Debug\MyTestMVC.pdb
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\css\bootstrap-theme.css.map
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\css\bootstrap.css.map
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\fonts\glyphicons-halflings-regular.eot
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\fonts\glyphicons-halflings-regular.ttf
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\fonts\glyphicons-halflings-regular.woff
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\fonts\glyphicons-halflings-regular.woff2
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\css\bootstrap-theme.css
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\css\bootstrap-theme.min.css
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\css\bootstrap.css
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\css\bootstrap.min.css
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\fonts\glyphicons-halflings-regular.svg
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\js\bootstrap.js
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\js\bootstrap.min.js
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\js\npm.js
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\jquery-1.9.1.js
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\jquery-1.9.1.min.js

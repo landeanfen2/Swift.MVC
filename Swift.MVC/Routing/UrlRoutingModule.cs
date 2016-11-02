@@ -4,30 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-using System.Web.Routing;
 
-namespace Swift.MVC
+namespace Swift.MVC.Routing
 {
     public class UrlRoutingModule : IHttpModule
     {
         #region Property
-        private RouteCollection _routeCollection;
+        private SwiftRouteCollection _swiftRouteCollection;
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly",
             Justification = "This needs to be settable for unit tests.")]
-        public RouteCollection RouteCollection
+        public SwiftRouteCollection SwiftRouteCollection
         {
             get
             {
-                if (_routeCollection == null)
+                if (_swiftRouteCollection == null)
                 {
-                    _routeCollection = RouteTable.Routes;
+                    _swiftRouteCollection = SwiftRouteTable.Routes;
                 }
-                return _routeCollection;
+                return _swiftRouteCollection;
             }
             set
             {
-                _routeCollection = value;
+                _swiftRouteCollection = value;
             }
         }
         #endregion
@@ -52,31 +51,27 @@ namespace Swift.MVC
 
         public virtual void PostResolveRequestCache(HttpContextBase context)
         {
-            //1.传入当前上下文对象，得到与当前请求匹配的RouteData对象
-            RouteData routeData = this.RouteCollection.GetRouteData(context);
+            //1.传入当前上下文对象，得到与当前请求匹配的SwiftRouteData对象
+            SwiftRouteData routeData = this.SwiftRouteCollection.GetRouteData(context);
             if (routeData == null)
             {
                 return;
             }
-            //2.从RouteData对象里面得到当前的RouteHandler对象。
+            //2.从SwiftRouteData对象里面得到当前的RouteHandler对象。
             IRouteHandler routeHandler = routeData.RouteHandler;
             if (routeHandler == null)
             {
                 return;
             }
 
-            //3.根据HttpContext和RouteData得到RequestContext对象
-            RequestContext requestContext = new RequestContext(context, routeData);
-            context.Request.RequestContext = requestContext;
-
-            //4.根据RequestContext对象得到处理当前请求的HttpHandler（MvcHandler）。
-            IHttpHandler httpHandler = routeHandler.GetHttpHandler(requestContext);
+            //3.根据RequestContext对象得到处理当前请求的HttpHandler（MvcHandler）。
+            IHttpHandler httpHandler = routeHandler.GetHttpHandler(routeData, context);
             if (httpHandler == null)
             {
                 return;
             }
 
-            //5.请求转到HttpHandler进行处理（进入到ProcessRequest方法）。这一步很重要，由这一步开始，请求才由UrlRoutingModule转到了MvcHandler里面
+            //4.请求转到HttpHandler进行处理（进入到ProcessRequest方法）。这一步很重要，由这一步开始，请求才由UrlRoutingModule转到了MvcHandler里面
             context.RemapHandler(httpHandler);
         }
     }

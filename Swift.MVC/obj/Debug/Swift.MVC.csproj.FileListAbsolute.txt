@@ -8,3 +8,8 @@ E:\VS2013 Projects\Swift.Mvc\Swift.MVC\bin\Debug\Swift.MVC.pdb
 E:\VS2013 Projects\Swift.Mvc\Swift.MVC\obj\Debug\Swift.MVC.dll
 E:\VS2013 Projects\Swift.Mvc\Swift.MVC\obj\Debug\Swift.MVC.pdb
 E:\VS2013 Projects\Swift.Mvc\Swift.MVC\obj\Debug\Swift.MVC.csprojResolveAssemblyReference.cache
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\Swift.MVC.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\Swift.MVC.pdb
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\obj\Debug\Swift.MVC.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\obj\Debug\Swift.MVC.pdb
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\obj\Debug\Swift.MVC.csprojResolveAssemblyReference.cache
