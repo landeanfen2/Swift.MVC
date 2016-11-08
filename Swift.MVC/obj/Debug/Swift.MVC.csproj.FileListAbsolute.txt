@@ -13,3 +13,9 @@ C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\Sw
 C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\obj\Debug\Swift.MVC.dll
 C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\obj\Debug\Swift.MVC.pdb
 C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\obj\Debug\Swift.MVC.csprojResolveAssemblyReference.cache
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\RazorEngine.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\System.Web.Razor.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\RazorEngine.xml
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\System.Web.Razor.xml
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\NVelocity.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\Swift.MVC\bin\Debug\NVelocity.xml

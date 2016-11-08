@@ -36,3 +36,9 @@ C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\
 C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\bootstrap\js\npm.js
 C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\jquery-1.9.1.js
 C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\Content\jquery-1.9.1.min.js
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\RazorEngine.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\System.Web.Razor.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\RazorEngine.xml
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\System.Web.Razor.xml
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\NVelocity.dll
+C:\Users\yangxiaojun\Documents\GitHub\Swift.MVC\Swift.MVC\MyTestMVC\bin\NVelocity.xml

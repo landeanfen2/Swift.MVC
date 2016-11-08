@@ -1,4 +1,5 @@
-﻿using Swift.MVC.Routing;
+﻿using Swift.MVC.MyRazor;
+using Swift.MVC.Routing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,12 +44,93 @@ namespace Swift.MVC
                 BindingFlags.Public | BindingFlags.Instance | BindingFlags.IgnoreCase, null, paramTypes.ToArray(), null);
 
             //5.执行该Action方法
-            mi.Invoke(this, parameters.ToArray());//调用方法
+            var actionResult = mi.Invoke(this, parameters.ToArray()) as ActionResult;
+
+            //6.得到action方法的返回值，并执行具体ActionResult的ExecuteResult()方法。
+            actionResult.ExecuteResult(routeData);
         }
 
         public void Dispose()
         {
             //throw new NotImplementedException();
         }
+
+        #region View相关
+
+        #region ContentResult
+        protected virtual ContentResult Content(string content)
+        {
+            return Content(content, null);
+        }
+
+        protected virtual ContentResult Content(string content, string contentType)
+        {
+            return Content(content, contentType, null);
+        }
+
+        protected virtual ContentResult Content(string content, string contentType, Encoding contentEncoding)
+        {
+            return new ContentResult()
+            {
+                Content = content,
+                ContentType = contentType,
+                ContentEncoding = contentEncoding
+            };
+        }
+        #endregion
+
+        #region JsonResult
+        protected virtual JsonResult Json(object data, JsonRequestBehavior jsonBehavior)
+        {
+            return new JsonResult()
+            {
+                Data = data,
+                JsonRequestBehavior = jsonBehavior
+            };
+        }
+        #endregion
+
+        #region ViewResult
+        protected virtual MyViewResult MyView()
+        {
+            return new MyViewResult();
+        }
+
+        protected virtual MyViewResult MyView(object data)
+        {
+            return new MyViewResult()
+            { 
+                Data = data 
+            };
+        }
+
+        protected virtual RazorEngineViewResult RazorEngineView()
+        {
+            return new RazorEngineViewResult();
+        }
+
+        protected virtual RazorEngineViewResult RazorEngineView(object data)
+        {
+            return new RazorEngineViewResult()
+            {
+                Data = data
+            };
+        }
+
+        protected virtual VelocityViewResult VelocityView()
+        {
+            return new VelocityViewResult();
+        }
+
+        protected virtual VelocityViewResult VelocityView(object data)
+        {
+            return new VelocityViewResult()
+            {
+                Data = data
+            };
+        }
+        #endregion
+
+        #endregion
     }
 }
